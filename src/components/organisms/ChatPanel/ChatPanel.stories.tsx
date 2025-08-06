@@ -11,7 +11,7 @@ import { ChatFeedback } from "../../atoms/ChatFeedback/ChatFeedback";
 import { useState } from "react";
 
 const meta: Meta = {
-  title: "Organisms/ChatPanel",
+  title: "Organisms/Chat Panel",
   args: {
     content: false,
   },
