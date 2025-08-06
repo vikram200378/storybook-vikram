@@ -25,7 +25,15 @@ export const SuggestedActions: React.FC<SuggestedActionsProps> = ({
       }}
     >
       {!expanded ? (
-        <Badge color="error" variant="dot">
+        <Badge
+          color="error"
+          variant="dot"
+          sx={{
+            ".MuiBadge-dot": {
+              bgcolor: "#C85A15",
+            },
+          }}
+        >
           <img src={BulbIcon} />
         </Badge>
       ) : (
