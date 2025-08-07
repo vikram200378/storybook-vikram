@@ -3,6 +3,7 @@ import { ChatFeedback } from "./ChatFeedback";
 
 const meta: Meta = {
   title: "Atoms/Chat Feedback",
+  component: ChatFeedback
 };
 
 export default meta;
